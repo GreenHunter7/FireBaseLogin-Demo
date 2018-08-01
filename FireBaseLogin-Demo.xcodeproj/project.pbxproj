@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12A59DE2112318E0043DBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A59DD2112318E0043DBFF /* AppDelegate.swift */; };
+		A12A59E02112318E0043DBFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A59DF2112318E0043DBFF /* ViewController.swift */; };
+		A12A59E32112318E0043DBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A59E12112318E0043DBFF /* Main.storyboard */; };
+		A12A59E5211231900043DBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12A59E4211231900043DBFF /* Assets.xcassets */; };
+		A12A59E8211231900043DBFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A59E6211231900043DBFF /* LaunchScreen.storyboard */; };
+		A12A59F3211231900043DBFF /* FireBaseLogin_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A59F2211231900043DBFF /* FireBaseLogin_DemoTests.swift */; };
+		A12A59FE211231900043DBFF /* FireBaseLogin_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A59FD211231900043DBFF /* FireBaseLogin_DemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A12A59EF211231900043DBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12A59D22112318E0043DBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12A59D92112318E0043DBFF;
+			remoteInfo = "FireBaseLogin-Demo";
+		};
+		A12A59FA211231900043DBFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12A59D22112318E0043DBFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12A59D92112318E0043DBFF;
+			remoteInfo = "FireBaseLogin-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A12A59DA2112318E0043DBFF /* FireBaseLogin-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FireBaseLogin-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A59DD2112318E0043DBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A12A59DF2112318E0043DBFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A12A59E22112318E0043DBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12A59E4211231900043DBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12A59E7211231900043DBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A12A59E9211231900043DBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A59EE211231900043DBFF /* FireBaseLogin-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FireBaseLogin-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A59F2211231900043DBFF /* FireBaseLogin_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseLogin_DemoTests.swift; sourceTree = "<group>"; };
+		A12A59F4211231900043DBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12A59F9211231900043DBFF /* FireBaseLogin-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FireBaseLogin-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12A59FD211231900043DBFF /* FireBaseLogin_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseLogin_DemoUITests.swift; sourceTree = "<group>"; };
+		A12A59FF211231900043DBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12A59D72112318E0043DBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A59EB211231900043DBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A59F6211231900043DBFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12A59D12112318E0043DBFF = {
+			isa = PBXGroup;
+			children = (
+				A12A59DC2112318E0043DBFF /* FireBaseLogin-Demo */,
+				A12A59F1211231900043DBFF /* FireBaseLogin-DemoTests */,
+				A12A59FC211231900043DBFF /* FireBaseLogin-DemoUITests */,
+				A12A59DB2112318E0043DBFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12A59DB2112318E0043DBFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12A59DA2112318E0043DBFF /* FireBaseLogin-Demo.app */,
+				A12A59EE211231900043DBFF /* FireBaseLogin-DemoTests.xctest */,
+				A12A59F9211231900043DBFF /* FireBaseLogin-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12A59DC2112318E0043DBFF /* FireBaseLogin-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A12A59DD2112318E0043DBFF /* AppDelegate.swift */,
+				A12A59DF2112318E0043DBFF /* ViewController.swift */,
+				A12A59E12112318E0043DBFF /* Main.storyboard */,
+				A12A59E4211231900043DBFF /* Assets.xcassets */,
+				A12A59E6211231900043DBFF /* LaunchScreen.storyboard */,
+				A12A59E9211231900043DBFF /* Info.plist */,
+			);
+			path = "FireBaseLogin-Demo";
+			sourceTree = "<group>";
+		};
+		A12A59F1211231900043DBFF /* FireBaseLogin-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A12A59F2211231900043DBFF /* FireBaseLogin_DemoTests.swift */,
+				A12A59F4211231900043DBFF /* Info.plist */,
+			);
+			path = "FireBaseLogin-DemoTests";
+			sourceTree = "<group>";
+		};
+		A12A59FC211231900043DBFF /* FireBaseLogin-DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A12A59FD211231900043DBFF /* FireBaseLogin_DemoUITests.swift */,
+				A12A59FF211231900043DBFF /* Info.plist */,
+			);
+			path = "FireBaseLogin-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12A59D92112318E0043DBFF /* FireBaseLogin-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12A5A02211231900043DBFF /* Build configuration list for PBXNativeTarget "FireBaseLogin-Demo" */;
+			buildPhases = (
+				A12A59D62112318E0043DBFF /* Sources */,
+				A12A59D72112318E0043DBFF /* Frameworks */,
+				A12A59D82112318E0043DBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FireBaseLogin-Demo";
+			productName = "FireBaseLogin-Demo";
+			productReference = A12A59DA2112318E0043DBFF /* FireBaseLogin-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A12A59ED211231900043DBFF /* FireBaseLogin-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12A5A05211231900043DBFF /* Build configuration list for PBXNativeTarget "FireBaseLogin-DemoTests" */;
+			buildPhases = (
+				A12A59EA211231900043DBFF /* Sources */,
+				A12A59EB211231900043DBFF /* Frameworks */,
+				A12A59EC211231900043DBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12A59F0211231900043DBFF /* PBXTargetDependency */,
+			);
+			name = "FireBaseLogin-DemoTests";
+			productName = "FireBaseLogin-DemoTests";
+			productReference = A12A59EE211231900043DBFF /* FireBaseLogin-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A12A59F8211231900043DBFF /* FireBaseLogin-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12A5A08211231900043DBFF /* Build configuration list for PBXNativeTarget "FireBaseLogin-DemoUITests" */;
+			buildPhases = (
+				A12A59F5211231900043DBFF /* Sources */,
+				A12A59F6211231900043DBFF /* Frameworks */,
+				A12A59F7211231900043DBFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12A59FB211231900043DBFF /* PBXTargetDependency */,
+			);
+			name = "FireBaseLogin-DemoUITests";
+			productName = "FireBaseLogin-DemoUITests";
+			productReference = A12A59F9211231900043DBFF /* FireBaseLogin-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12A59D22112318E0043DBFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mohamed Hussien";
+				TargetAttributes = {
+					A12A59D92112318E0043DBFF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A12A59ED211231900043DBFF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A12A59D92112318E0043DBFF;
+					};
+					A12A59F8211231900043DBFF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A12A59D92112318E0043DBFF;
+					};
+				};
+			};
+			buildConfigurationList = A12A59D52112318E0043DBFF /* Build configuration list for PBXProject "FireBaseLogin-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12A59D12112318E0043DBFF;
+			productRefGroup = A12A59DB2112318E0043DBFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12A59D92112318E0043DBFF /* FireBaseLogin-Demo */,
+				A12A59ED211231900043DBFF /* FireBaseLogin-DemoTests */,
+				A12A59F8211231900043DBFF /* FireBaseLogin-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12A59D82112318E0043DBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A59E8211231900043DBFF /* LaunchScreen.storyboard in Resources */,
+				A12A59E5211231900043DBFF /* Assets.xcassets in Resources */,
+				A12A59E32112318E0043DBFF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A59EC211231900043DBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A59F7211231900043DBFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12A59D62112318E0043DBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A59E02112318E0043DBFF /* ViewController.swift in Sources */,
+				A12A59DE2112318E0043DBFF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A59EA211231900043DBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A59F3211231900043DBFF /* FireBaseLogin_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12A59F5211231900043DBFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12A59FE211231900043DBFF /* FireBaseLogin_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A12A59F0211231900043DBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12A59D92112318E0043DBFF /* FireBaseLogin-Demo */;
+			targetProxy = A12A59EF211231900043DBFF /* PBXContainerItemProxy */;
+		};
+		A12A59FB211231900043DBFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12A59D92112318E0043DBFF /* FireBaseLogin-Demo */;
+			targetProxy = A12A59FA211231900043DBFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A12A59E12112318E0043DBFF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12A59E22112318E0043DBFF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A12A59E6211231900043DBFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12A59E7211231900043DBFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12A5A00211231900043DBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A12A5A01211231900043DBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A12A5A03211231900043DBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FireBaseLogin-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MorniKsa.FireBaseLogin-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A12A5A04211231900043DBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FireBaseLogin-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MorniKsa.FireBaseLogin-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A12A5A06211231900043DBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FireBaseLogin-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MorniKsa.FireBaseLogin-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireBaseLogin-Demo.app/FireBaseLogin-Demo";
+			};
+			name = Debug;
+		};
+		A12A5A07211231900043DBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FireBaseLogin-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MorniKsa.FireBaseLogin-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FireBaseLogin-Demo.app/FireBaseLogin-Demo";
+			};
+			name = Release;
+		};
+		A12A5A09211231900043DBFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FireBaseLogin-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MorniKsa.FireBaseLogin-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FireBaseLogin-Demo";
+			};
+			name = Debug;
+		};
+		A12A5A0A211231900043DBFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "FireBaseLogin-DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MorniKsa.FireBaseLogin-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FireBaseLogin-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12A59D52112318E0043DBFF /* Build configuration list for PBXProject "FireBaseLogin-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A5A00211231900043DBFF /* Debug */,
+				A12A5A01211231900043DBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12A5A02211231900043DBFF /* Build configuration list for PBXNativeTarget "FireBaseLogin-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A5A03211231900043DBFF /* Debug */,
+				A12A5A04211231900043DBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12A5A05211231900043DBFF /* Build configuration list for PBXNativeTarget "FireBaseLogin-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A5A06211231900043DBFF /* Debug */,
+				A12A5A07211231900043DBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12A5A08211231900043DBFF /* Build configuration list for PBXNativeTarget "FireBaseLogin-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12A5A09211231900043DBFF /* Debug */,
+				A12A5A0A211231900043DBFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12A59D22112318E0043DBFF /* Project object */;
+}
