@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KYw-y7-fCh">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FireBaseLogin_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,6 +37,59 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-10" y="72"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1f4-kh-lOf">
+            <objects>
+                <viewController id="KYw-y7-fCh" customClass="ViewController" customModule="FireBaseLogin_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ebw-q5-QDO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_background" translatesAutoresizingMaskIntoConstraints="NO" id="GYS-aj-LFW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PX1-8G-cge">
+                                <rect key="frame" x="29" y="263.5" width="316" height="180"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9OX-pd-FoQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="316" height="180"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="9OX-pd-FoQ" firstAttribute="leading" secondItem="PX1-8G-cge" secondAttribute="leading" id="3QZ-2e-B8l"/>
+                                    <constraint firstAttribute="height" constant="180" id="6Sg-QM-5x3"/>
+                                    <constraint firstItem="9OX-pd-FoQ" firstAttribute="top" secondItem="PX1-8G-cge" secondAttribute="top" id="G8M-N2-Iew"/>
+                                    <constraint firstAttribute="trailing" secondItem="9OX-pd-FoQ" secondAttribute="trailing" id="XPq-8D-MoA"/>
+                                    <constraint firstAttribute="bottom" secondItem="9OX-pd-FoQ" secondAttribute="bottom" id="tmZ-Jc-43q"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GYS-aj-LFW" firstAttribute="top" secondItem="pO5-pH-wih" secondAttribute="top" id="5Xg-qD-fVJ"/>
+                            <constraint firstItem="GYS-aj-LFW" firstAttribute="leading" secondItem="pO5-pH-wih" secondAttribute="leading" id="DD4-ag-ndf"/>
+                            <constraint firstItem="pO5-pH-wih" firstAttribute="trailing" secondItem="PX1-8G-cge" secondAttribute="trailing" constant="30" id="Ryo-hj-r5x"/>
+                            <constraint firstItem="pO5-pH-wih" firstAttribute="trailing" secondItem="GYS-aj-LFW" secondAttribute="trailing" id="XGL-2t-kgI"/>
+                            <constraint firstItem="pO5-pH-wih" firstAttribute="bottom" secondItem="GYS-aj-LFW" secondAttribute="bottom" id="ffC-QW-VTJ"/>
+                            <constraint firstItem="PX1-8G-cge" firstAttribute="centerX" secondItem="Ebw-q5-QDO" secondAttribute="centerX" id="ubs-KZ-8ur"/>
+                            <constraint firstItem="PX1-8G-cge" firstAttribute="centerY" secondItem="Ebw-q5-QDO" secondAttribute="centerY" constant="20" id="wFd-nw-fAq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pO5-pH-wih"/>
+                    </view>
+                    <connections>
+                        <outlet property="containerStackView" destination="9OX-pd-FoQ" id="Mkg-dB-gTf"/>
+                        <outlet property="containerView" destination="PX1-8G-cge" id="coe-sn-rh1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ns7-nH-okP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="793" y="72"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="login_background" width="2253" height="3992"/>
+    </resources>
 </document>

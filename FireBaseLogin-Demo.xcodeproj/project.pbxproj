@@ -12,12 +12,13 @@
 		762F368FD24708B482228960 /* Pods_FireBaseLogin_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BC0712D62F9DEE423276B2 /* Pods_FireBaseLogin_DemoUITests.framework */; };
 		A12A59DE2112318E0043DBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A59DD2112318E0043DBFF /* AppDelegate.swift */; };
 		A12A59E02112318E0043DBFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A59DF2112318E0043DBFF /* ViewController.swift */; };
-		A12A59E32112318E0043DBFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A59E12112318E0043DBFF /* Main.storyboard */; };
 		A12A59E5211231900043DBFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12A59E4211231900043DBFF /* Assets.xcassets */; };
 		A12A59E8211231900043DBFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12A59E6211231900043DBFF /* LaunchScreen.storyboard */; };
 		A12A59F3211231900043DBFF /* FireBaseLogin_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A59F2211231900043DBFF /* FireBaseLogin_DemoTests.swift */; };
 		A12A59FE211231900043DBFF /* FireBaseLogin_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12A59FD211231900043DBFF /* FireBaseLogin_DemoUITests.swift */; };
 		A12A5A0E21124B4B0043DBFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A12A5A0D21124B4B0043DBFF /* GoogleService-Info.plist */; };
+		A12DE6752114AAE000E1A526 /* CustomAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DE6742114AAE000E1A526 /* CustomAuthViewController.swift */; };
+		A12DE6782114B67A00E1A526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12DE6762114B67A00E1A526 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,6 @@
 		A12A59DA2112318E0043DBFF /* FireBaseLogin-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FireBaseLogin-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12A59DD2112318E0043DBFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A12A59DF2112318E0043DBFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A12A59E22112318E0043DBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A12A59E4211231900043DBFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A12A59E7211231900043DBFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A12A59E9211231900043DBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +56,8 @@
 		A12A59FD211231900043DBFF /* FireBaseLogin_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseLogin_DemoUITests.swift; sourceTree = "<group>"; };
 		A12A59FF211231900043DBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A12A5A0D21124B4B0043DBFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A12DE6742114AAE000E1A526 /* CustomAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAuthViewController.swift; sourceTree = "<group>"; };
+		A12DE6772114B67A00E1A526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B749415722296A48F0620B2B /* Pods_FireBaseLogin_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseLogin_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85BE6D921CE264BF215ECF3 /* Pods-FireBaseLogin-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseLogin-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FireBaseLogin-Demo/Pods-FireBaseLogin-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		CAB0480704D5AB844B8EB2E8 /* Pods_FireBaseLogin_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseLogin_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,8 +133,9 @@
 			children = (
 				A12A59DD2112318E0043DBFF /* AppDelegate.swift */,
 				A12A59DF2112318E0043DBFF /* ViewController.swift */,
-				A12A59E12112318E0043DBFF /* Main.storyboard */,
+				A12DE6742114AAE000E1A526 /* CustomAuthViewController.swift */,
 				A12A59E4211231900043DBFF /* Assets.xcassets */,
+				A12DE6762114B67A00E1A526 /* Main.storyboard */,
 				A12A59E6211231900043DBFF /* LaunchScreen.storyboard */,
 				A12A5A0D21124B4B0043DBFF /* GoogleService-Info.plist */,
 				A12A59E9211231900043DBFF /* Info.plist */,
@@ -280,7 +283,7 @@
 				A12A59E8211231900043DBFF /* LaunchScreen.storyboard in Resources */,
 				A12A5A0E21124B4B0043DBFF /* GoogleService-Info.plist in Resources */,
 				A12A59E5211231900043DBFF /* Assets.xcassets in Resources */,
-				A12A59E32112318E0043DBFF /* Main.storyboard in Resources */,
+				A12DE6782114B67A00E1A526 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A12DE6752114AAE000E1A526 /* CustomAuthViewController.swift in Sources */,
 				A12A59E02112318E0043DBFF /* ViewController.swift in Sources */,
 				A12A59DE2112318E0043DBFF /* AppDelegate.swift in Sources */,
 			);
@@ -461,20 +465,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A12A59E12112318E0043DBFF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A12A59E22112318E0043DBFF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A12A59E6211231900043DBFF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A12A59E7211231900043DBFF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A12DE6762114B67A00E1A526 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12DE6772114B67A00E1A526 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
